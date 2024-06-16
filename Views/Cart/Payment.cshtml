@@ -1,0 +1,143 @@
+﻿@model SmallBusiness.Models.Payment
+
+@{
+    Layout = "~/Views/Shared/_LayoutCustomer.cshtml";
+    ViewBag.Title = "Payment";
+}
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="~/css/bootstrap.css" />
+    <link href="~/css/brandstyle.css" rel="stylesheet" />
+    <link href="~/css/brandresponsive.css" rel="stylesheet" />
+    <style>
+        body {
+            background-image: url('../images/672cf441-1118-4d96-b1a8-c46f78896ec3.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 100vh;
+        }
+
+        .container {
+            margin-top: 50px;
+        }
+
+        .glassy-card {
+            background: rgba(255, 255, 255, 0.5);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 20px;
+        }
+
+        .card-title {
+            color: #333;
+        }
+
+        .form-control {
+            margin-bottom: 15px;
+        }
+
+        .btn-primary {
+            color: white;
+            background-color: blue;
+            border-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                @using (Html.BeginForm())
+                {
+                    @Html.AntiForgeryToken()
+
+                    <div class="form-horizontal">
+                        <div class="card glassy-card">
+                            <div class="card-body">
+                                <h4 class="card-title text-center">Check Out</h4>
+                                <hr />
+                                @if (ViewBag.ValidationErrors != null)
+                                {
+                                    <div class="alert alert-danger">
+                                        <ul>
+                                            @foreach (var error in ViewBag.ValidationErrors)
+                                            {
+                                                <li>@error</li>
+                                            }
+                                        </ul>
+                                    </div>
+                                }
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.PaymentType, new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        <select asp-for="PaymentType" class="form-control" id="paymentType" onchange="toggleVisaNo()">
+                                            <option value="">Select Payment Type</option>
+                                            <option value="Cash">Cash</option>
+                                            <option value="Visa">Visa</option>
+                                        </select>
+                                        @Html.ValidationMessageFor(model => model.PaymentType, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group" id="visaNoField" style="display:none;">
+                                    @Html.LabelFor(model => model.VisaNo, new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.VisaNo, new { htmlAttributes = new { @class = "form-control", @id = "VisaNo" } })
+                                        @Html.ValidationMessageFor(model => model.VisaNo, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.PaymentDate, new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.PaymentDate, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+                                        @Html.ValidationMessageFor(model => model.PaymentDate, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.PaymentPrice, new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.PaymentPrice, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+                                        @Html.ValidationMessageFor(model => model.PaymentPrice, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                @Html.HiddenFor(model => model.OrderID)
+
+                                <div class="form-group text-center">
+                                    <input type="submit" value="Submit Payment" class="btn btn-primary" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+
+    @section Scripts {
+        <script>
+            function toggleVisaNo() {
+                var paymentType = document.getElementById("paymentType").value;
+                var visaNoField = document.getElementById("visaNoField");
+                var visaNoInput = document.getElementById("VisaNo");
+
+                if (paymentType === "Visa") {
+                    visaNoField.style.display = "block";
+                    visaNoInput.setAttribute("required", "required");
+                } else {
+                    visaNoField.style.display = "none";
+                    visaNoInput.removeAttribute("required");
+                }
+            }
+
+            // Ensure the correct initial state
+            toggleVisaNo();
+        </script>
+    }
+</body>
+</html>

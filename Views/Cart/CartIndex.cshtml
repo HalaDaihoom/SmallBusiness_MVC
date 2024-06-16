@@ -1,0 +1,99 @@
+﻿@model List<SmallBusiness.Models.CartItem>
+
+@{
+    Layout = "~/Views/Shared/_LayoutCustomer.cshtml";
+    ViewData["Title"] = "Shopping Cart";
+}
+
+<html>
+<head>
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .table td, .table th {
+            vertical-align: middle;
+        }
+
+        .btn-danger {
+            width: 100%;
+        }
+
+        .btn-primary {
+            width: auto;
+            padding: 0.375rem 0.75rem;
+        }
+
+        .cart-total {
+            font-size: 1.25em;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .checkout-container {
+            text-align: right;
+            margin-top: 20px;
+        }
+
+        .out-of-stock-message {
+            color: #dc3545;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="mb-4">@ViewData["Title"]</h2>
+
+        @if (Model != null && Model.Any())
+        {
+            @if (TempData["OutOfStockMessage"] != null)
+            {
+                <p class="out-of-stock-message">@TempData["OutOfStockMessage"]</p>
+            }
+
+            <table class="table table-striped">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">Item</th>
+                        <th scope="col">Quantity</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Total</th>
+                        <th scope="col">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.ItemNameCart</td>
+                            <td>@item.QuantityCart</td>
+                            <td>@item.ItemPriceCart.ToString("C")</td>
+                            <td>@(item.QuantityCart * item.ItemPriceCart).ToString("C")</td>
+                            <td>
+                                <div class="btn-group" role="group">
+                                    <a asp-action="RemoveFromCart" asp-route-itemId="@item.ItemIdCart" class="btn btn-danger">Remove</a>
+                                    <a asp-action="IncreaseCartItemQuantity" asp-route-itemId="@item.ItemIdCart" class="btn btn-success">+</a>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+            <!-- Checkout button -->
+            <div class="checkout-container">
+                <form asp-action="Checkout" method="post">
+                    <button type="submit" class="btn btn-primary">Checkout</button>
+                </form>
+            </div>
+        }
+        else
+        {
+            <p class="text-center">Your cart is empty.</p>
+        }
+    </div>
+</body>
+</html>

@@ -1,0 +1,1093 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SmallBusiness.bundle.scp.css",
+      "PackagePath": "staticwebassets\\SmallBusiness.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\AboutUs.html",
+      "PackagePath": "staticwebassets\\AboutUs.html"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\ContactUs.html",
+      "PackagePath": "staticwebassets\\ContactUs.html"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\Home.html",
+      "PackagePath": "staticwebassets\\Home.html"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\UserIndex.html",
+      "PackagePath": "staticwebassets\\UserIndex.html"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\css\\Catagorystyle.css",
+      "PackagePath": "staticwebassets\\css\\Catagorystyle.css"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\css\\StyleCustomer.css",
+      "PackagePath": "staticwebassets\\css\\StyleCustomer.css"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\css\\StyleSheet.css",
+      "PackagePath": "staticwebassets\\css\\StyleSheet.css"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\css\\aboutbootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\aboutbootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\css\\aboutbootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\aboutbootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\css\\animate.min.css",
+      "PackagePath": "staticwebassets\\css\\animate.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\css\\brandresponsive.css",
+      "PackagePath": "staticwebassets\\css\\brandresponsive.css"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\css\\brandstyle.css",
+      "PackagePath": "staticwebassets\\css\\brandstyle.css"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\css\\default-skin.css",
+      "PackagePath": "staticwebassets\\css\\default-skin.css"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\css\\icomoon.css",
+      "PackagePath": "staticwebassets\\css\\icomoon.css"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\css\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\css\\jquery-ui.css"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\css\\jquery.fancybox.min.css",
+      "PackagePath": "staticwebassets\\css\\jquery.fancybox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\css\\jquery.mCustomScrollbar.min.css",
+      "PackagePath": "staticwebassets\\css\\jquery.mCustomScrollbar.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\css\\meanmenu.css",
+      "PackagePath": "staticwebassets\\css\\meanmenu.css"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\css\\nice-select.css"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\css\\normalize.css",
+      "PackagePath": "staticwebassets\\css\\normalize.css"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\css\\slick.css",
+      "PackagePath": "staticwebassets\\css\\slick.css"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\css\\styleCategory.css",
+      "PackagePath": "staticwebassets\\css\\styleCategory.css"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\css\\styleSign.css",
+      "PackagePath": "staticwebassets\\css\\styleSign.css"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\electronic.html",
+      "PackagePath": "staticwebassets\\electronic.html"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\fashion.html",
+      "PackagePath": "staticwebassets\\fashion.html"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\fonts\\Berlin Sans FB Bold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Berlin Sans FB Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\01c4158c5b82cac63e497a2d4c8d498d.jpg",
+      "PackagePath": "staticwebassets\\images\\01c4158c5b82cac63e497a2d4c8d498d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\043abe7e8e8552bb512097399e54b075.jpg",
+      "PackagePath": "staticwebassets\\images\\043abe7e8e8552bb512097399e54b075.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\044233d33439b6aa855de97adad5d4ae.jpg",
+      "PackagePath": "staticwebassets\\images\\044233d33439b6aa855de97adad5d4ae.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\11ea136449dba81b8968b36111f99d62.jpg",
+      "PackagePath": "staticwebassets\\images\\11ea136449dba81b8968b36111f99d62.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\167150583d7ef183c7fc3e068a4f5cb9.jpg",
+      "PackagePath": "staticwebassets\\images\\167150583d7ef183c7fc3e068a4f5cb9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\19a234822f1a2805c0b32d3fa3396867.png",
+      "PackagePath": "staticwebassets\\images\\19a234822f1a2805c0b32d3fa3396867.png"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\1a287696-25e3-4e76-8a03-720233625db7.jpg",
+      "PackagePath": "staticwebassets\\images\\1a287696-25e3-4e76-8a03-720233625db7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\2118d8a8fc58625375ebe42a4acfb8f7.jpg",
+      "PackagePath": "staticwebassets\\images\\2118d8a8fc58625375ebe42a4acfb8f7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\23-confirmation-templates.webp",
+      "PackagePath": "staticwebassets\\images\\23-confirmation-templates.webp"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\2d2398d7182714bfbc919f96d0030995.jpg",
+      "PackagePath": "staticwebassets\\images\\2d2398d7182714bfbc919f96d0030995.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\2d3ff7d1d8014426846eeca500a9b0c5.jpg",
+      "PackagePath": "staticwebassets\\images\\2d3ff7d1d8014426846eeca500a9b0c5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\2fa1647446a590318d5cfe39f4509ce8.jpg",
+      "PackagePath": "staticwebassets\\images\\2fa1647446a590318d5cfe39f4509ce8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\35d3156b179b784cb8b9b43711374b45.jpg",
+      "PackagePath": "staticwebassets\\images\\35d3156b179b784cb8b9b43711374b45.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\3e2030c6290b223fa285f8f544705c0b.jpg",
+      "PackagePath": "staticwebassets\\images\\3e2030c6290b223fa285f8f544705c0b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\45-b7147563.jpg",
+      "PackagePath": "staticwebassets\\images\\45-b7147563.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\5422e1cc-2c50-496c-b4e0-f6fdcdfb7669.jpeg",
+      "PackagePath": "staticwebassets\\images\\5422e1cc-2c50-496c-b4e0-f6fdcdfb7669.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\5d129c0749745b255bc3d3662c72a70b.jpg",
+      "PackagePath": "staticwebassets\\images\\5d129c0749745b255bc3d3662c72a70b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\672cf441-1118-4d96-b1a8-c46f78896ec3.jpg",
+      "PackagePath": "staticwebassets\\images\\672cf441-1118-4d96-b1a8-c46f78896ec3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\67dce4325cc4dd99ec390c944bc93d69.jpg",
+      "PackagePath": "staticwebassets\\images\\67dce4325cc4dd99ec390c944bc93d69.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\6c4595c5-09c2-404b-a85e-b1d4c3a8a5ed.jpg",
+      "PackagePath": "staticwebassets\\images\\6c4595c5-09c2-404b-a85e-b1d4c3a8a5ed.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\6fad4c46c41be805c7fd3e95db641a86.jpg",
+      "PackagePath": "staticwebassets\\images\\6fad4c46c41be805c7fd3e95db641a86.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\735074995c84a1928497b15c090be877.jpg",
+      "PackagePath": "staticwebassets\\images\\735074995c84a1928497b15c090be877.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\7b24d19721ea355781e83cf495d30a08.jpg",
+      "PackagePath": "staticwebassets\\images\\7b24d19721ea355781e83cf495d30a08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\80fb6c733437f132c6848bfb44a6aeca.jpg",
+      "PackagePath": "staticwebassets\\images\\80fb6c733437f132c6848bfb44a6aeca.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\813ce28e56127eb755106a214546c0c2.jpg",
+      "PackagePath": "staticwebassets\\images\\813ce28e56127eb755106a214546c0c2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\82a85229d6c4bd19351edb54c1190a4d.jpg",
+      "PackagePath": "staticwebassets\\images\\82a85229d6c4bd19351edb54c1190a4d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\85c9e8e4-f2be-42fb-86bd-6031a18ce676.jpg",
+      "PackagePath": "staticwebassets\\images\\85c9e8e4-f2be-42fb-86bd-6031a18ce676.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\88f2ac7d64f1ad28ff2b5424338348ca.jpg",
+      "PackagePath": "staticwebassets\\images\\88f2ac7d64f1ad28ff2b5424338348ca.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\88f8715b72d420978aba1fb724f944a9.jpg",
+      "PackagePath": "staticwebassets\\images\\88f8715b72d420978aba1fb724f944a9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\Capture.PNG",
+      "PackagePath": "staticwebassets\\images\\Capture.PNG"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\DefualtImage.jpg",
+      "PackagePath": "staticwebassets\\images\\DefualtImage.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\FD867.webp",
+      "PackagePath": "staticwebassets\\images\\FD867.webp"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\WhatsApp Image 2024-05-27 at 12.21.50 AM.jpeg",
+      "PackagePath": "staticwebassets\\images\\WhatsApp Image 2024-05-27 at 12.21.50 AM.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\WhatsApp Image 2024-05-27 at 12.21.51 AM (1).jpeg",
+      "PackagePath": "staticwebassets\\images\\WhatsApp Image 2024-05-27 at 12.21.51 AM (1).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\WhatsApp Image 2024-05-27 at 12.21.51 AM (2).jpeg",
+      "PackagePath": "staticwebassets\\images\\WhatsApp Image 2024-05-27 at 12.21.51 AM (2).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\WhatsApp Image 2024-05-27 at 12.21.51 AM (3).jpeg",
+      "PackagePath": "staticwebassets\\images\\WhatsApp Image 2024-05-27 at 12.21.51 AM (3).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\WhatsApp Image 2024-05-27 at 12.21.51 AM (4).jpeg",
+      "PackagePath": "staticwebassets\\images\\WhatsApp Image 2024-05-27 at 12.21.51 AM (4).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\WhatsApp Image 2024-05-27 at 12.21.51 AM (5).jpeg",
+      "PackagePath": "staticwebassets\\images\\WhatsApp Image 2024-05-27 at 12.21.51 AM (5).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\WhatsApp Image 2024-05-27 at 12.21.51 AM.jpeg",
+      "PackagePath": "staticwebassets\\images\\WhatsApp Image 2024-05-27 at 12.21.51 AM.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\WhatsApp Image 2024-05-27 at 12.21.52 AM (1).jpeg",
+      "PackagePath": "staticwebassets\\images\\WhatsApp Image 2024-05-27 at 12.21.52 AM (1).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\WhatsApp Image 2024-05-27 at 12.21.52 AM (2).jpeg",
+      "PackagePath": "staticwebassets\\images\\WhatsApp Image 2024-05-27 at 12.21.52 AM (2).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\WhatsApp Image 2024-05-27 at 12.21.52 AM (4).jpeg",
+      "PackagePath": "staticwebassets\\images\\WhatsApp Image 2024-05-27 at 12.21.52 AM (4).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\WhatsApp Image 2024-05-27 at 12.21.52 AM.jpeg",
+      "PackagePath": "staticwebassets\\images\\WhatsApp Image 2024-05-27 at 12.21.52 AM.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\a09eaebd09713a66798348d31877699d.jpg",
+      "PackagePath": "staticwebassets\\images\\a09eaebd09713a66798348d31877699d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\a2299c41839255a0823c97c039ed6590.jpg",
+      "PackagePath": "staticwebassets\\images\\a2299c41839255a0823c97c039ed6590.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\a578eb6a-90af-466e-8282-bc67a903a07b.jpg",
+      "PackagePath": "staticwebassets\\images\\a578eb6a-90af-466e-8282-bc67a903a07b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\a724ee5cc9782fd908a0cc708bed7eda.jpg",
+      "PackagePath": "staticwebassets\\images\\a724ee5cc9782fd908a0cc708bed7eda.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\a7bc9eb94e16ea27a6e030ab0e618d31.jpg",
+      "PackagePath": "staticwebassets\\images\\a7bc9eb94e16ea27a6e030ab0e618d31.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\aa92dcd8c88d5dd6b04006a776e6174c.jpg",
+      "PackagePath": "staticwebassets\\images\\aa92dcd8c88d5dd6b04006a776e6174c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\about-left-image.png",
+      "PackagePath": "staticwebassets\\images\\about-left-image.png"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\about.png",
+      "PackagePath": "staticwebassets\\images\\about.png"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\acb65d6588243669280c471e36fa3d94.jpg",
+      "PackagePath": "staticwebassets\\images\\acb65d6588243669280c471e36fa3d94.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\affordable-jewellery-brands-6581856983db4.jpg",
+      "PackagePath": "staticwebassets\\images\\affordable-jewellery-brands-6581856983db4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\b13441438cd9d1388a4e2d9691391bea.jpg",
+      "PackagePath": "staticwebassets\\images\\b13441438cd9d1388a4e2d9691391bea.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\b142847e3428ef00b3fae6f158db210e.jpg",
+      "PackagePath": "staticwebassets\\images\\b142847e3428ef00b3fae6f158db210e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\b1e00731a286eb19c9db0d8a35ae2aa2.jpg",
+      "PackagePath": "staticwebassets\\images\\b1e00731a286eb19c9db0d8a35ae2aa2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\b24a3390-e7eb-415e-9a7d-f40de083514a.jpg",
+      "PackagePath": "staticwebassets\\images\\b24a3390-e7eb-415e-9a7d-f40de083514a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\bag.PNG",
+      "PackagePath": "staticwebassets\\images\\bag.PNG"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\bags.png",
+      "PackagePath": "staticwebassets\\images\\bags.png"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\bf74d5d27c054c4aedd8c6492b279379.jpg",
+      "PackagePath": "staticwebassets\\images\\bf74d5d27c054c4aedd8c6492b279379.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\c08e530a-03bf-4f4e-8d94-1b779bed95d1.jpeg",
+      "PackagePath": "staticwebassets\\images\\c08e530a-03bf-4f4e-8d94-1b779bed95d1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\call-icon.png",
+      "PackagePath": "staticwebassets\\images\\call-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\carupt.jpg",
+      "PackagePath": "staticwebassets\\images\\carupt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\clo1.jpeg",
+      "PackagePath": "staticwebassets\\images\\clo1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\clo2.jpeg",
+      "PackagePath": "staticwebassets\\images\\clo2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\clo3.jpeg",
+      "PackagePath": "staticwebassets\\images\\clo3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\clothes.jpg",
+      "PackagePath": "staticwebassets\\images\\clothes.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\computer-img.png",
+      "PackagePath": "staticwebassets\\images\\computer-img.png"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\d71aa39b5916009ed0f42aada9466eb6.jpg",
+      "PackagePath": "staticwebassets\\images\\d71aa39b5916009ed0f42aada9466eb6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\dbf7c107365df1d15ec0dea4d7db562d.jpg",
+      "PackagePath": "staticwebassets\\images\\dbf7c107365df1d15ec0dea4d7db562d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\dd3fd012-e794-46c7-9f24-fcb7223de795.jpg",
+      "PackagePath": "staticwebassets\\images\\dd3fd012-e794-46c7-9f24-fcb7223de795.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\download (1).jpeg",
+      "PackagePath": "staticwebassets\\images\\download (1).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\download (1).png",
+      "PackagePath": "staticwebassets\\images\\download (1).png"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\download (2).png",
+      "PackagePath": "staticwebassets\\images\\download (2).png"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\download.png",
+      "PackagePath": "staticwebassets\\images\\download.png"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\dress-shirt-img.png",
+      "PackagePath": "staticwebassets\\images\\dress-shirt-img.png"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\e7b7949dfa24d5b3177cf39cac9592a7.jpg",
+      "PackagePath": "staticwebassets\\images\\e7b7949dfa24d5b3177cf39cac9592a7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\ecommerce-definition.png.webp",
+      "PackagePath": "staticwebassets\\images\\ecommerce-definition.png.webp"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\electronics.png",
+      "PackagePath": "staticwebassets\\images\\electronics.png"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\f75bf88fa52af8e5cfffef2cbcf19b25.jpg",
+      "PackagePath": "staticwebassets\\images\\f75bf88fa52af8e5cfffef2cbcf19b25.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\f8c265842a436f39e5cd2b66b1c537bc.jpg",
+      "PackagePath": "staticwebassets\\images\\f8c265842a436f39e5cd2b66b1c537bc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\f935734ac451dc2a20f92d9ceb73e666.jpg",
+      "PackagePath": "staticwebassets\\images\\f935734ac451dc2a20f92d9ceb73e666.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\ff79c24ed2dddbcf8b4f850c5daba3d6.jpg",
+      "PackagePath": "staticwebassets\\images\\ff79c24ed2dddbcf8b4f850c5daba3d6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\flag-france.png",
+      "PackagePath": "staticwebassets\\images\\flag-france.png"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\flag-uk.png",
+      "PackagePath": "staticwebassets\\images\\flag-uk.png"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\footer-logo.png",
+      "PackagePath": "staticwebassets\\images\\footer-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\images - Copy.jpg",
+      "PackagePath": "staticwebassets\\images\\images - Copy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\images.jpg",
+      "PackagePath": "staticwebassets\\images\\images.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\img.png",
+      "PackagePath": "staticwebassets\\images\\img.png"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\istockphoto-1421761999-612x612.jpg",
+      "PackagePath": "staticwebassets\\images\\istockphoto-1421761999-612x612.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\jewelry.png",
+      "PackagePath": "staticwebassets\\images\\jewelry.png"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\jhumka-img.png",
+      "PackagePath": "staticwebassets\\images\\jhumka-img.png"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\kangan-img.png",
+      "PackagePath": "staticwebassets\\images\\kangan-img.png"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\laptop-img.png",
+      "PackagePath": "staticwebassets\\images\\laptop-img.png"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\lo.jpg",
+      "PackagePath": "staticwebassets\\images\\lo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\mail-icon.png",
+      "PackagePath": "staticwebassets\\images\\mail-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\map-icon.png",
+      "PackagePath": "staticwebassets\\images\\map-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\mobile-img.png",
+      "PackagePath": "staticwebassets\\images\\mobile-img.png"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\msg5161028728-43245.jpg",
+      "PackagePath": "staticwebassets\\images\\msg5161028728-43245.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\msg5161028728-43246.jpg",
+      "PackagePath": "staticwebassets\\images\\msg5161028728-43246.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\msg5161028728-43247.jpg",
+      "PackagePath": "staticwebassets\\images\\msg5161028728-43247.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\neklesh-img.png",
+      "PackagePath": "staticwebassets\\images\\neklesh-img.png"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\open.jpeg",
+      "PackagePath": "staticwebassets\\images\\open.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\original-8e640e26079d0cb85c8121209054cb5a.png",
+      "PackagePath": "staticwebassets\\images\\original-8e640e26079d0cb85c8121209054cb5a.png"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\original-e1e934e07af06e7cf74a2e2c8fae4dbb.png",
+      "PackagePath": "staticwebassets\\images\\original-e1e934e07af06e7cf74a2e2c8fae4dbb.png"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\original-e99dd2b07f2bcf9040709a926e62e034.png",
+      "PackagePath": "staticwebassets\\images\\original-e99dd2b07f2bcf9040709a926e62e034.png"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\p1.png",
+      "PackagePath": "staticwebassets\\images\\p1.png"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\p2.png",
+      "PackagePath": "staticwebassets\\images\\p2.png"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\p3.png",
+      "PackagePath": "staticwebassets\\images\\p3.png"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\p4.png",
+      "PackagePath": "staticwebassets\\images\\p4.png"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\p5.png",
+      "PackagePath": "staticwebassets\\images\\p5.png"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\p6.png",
+      "PackagePath": "staticwebassets\\images\\p6.png"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\p7.png",
+      "PackagePath": "staticwebassets\\images\\p7.png"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\p8.png",
+      "PackagePath": "staticwebassets\\images\\p8.png"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\photo1715502111.jpeg",
+      "PackagePath": "staticwebassets\\images\\photo1715502111.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\photo1716797157 (1).jpeg",
+      "PackagePath": "staticwebassets\\images\\photo1716797157 (1).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\photo1716797157 (2).jpeg",
+      "PackagePath": "staticwebassets\\images\\photo1716797157 (2).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\photo1716797157 (3).jpeg",
+      "PackagePath": "staticwebassets\\images\\photo1716797157 (3).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\photo1716797157 (4).jpeg",
+      "PackagePath": "staticwebassets\\images\\photo1716797157 (4).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\photo1716797157 (5).jpeg",
+      "PackagePath": "staticwebassets\\images\\photo1716797157 (5).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\photo1716797157.jpeg",
+      "PackagePath": "staticwebassets\\images\\photo1716797157.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\photo1716797212 (1).jpeg",
+      "PackagePath": "staticwebassets\\images\\photo1716797212 (1).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\photo1716797212 (2).jpeg",
+      "PackagePath": "staticwebassets\\images\\photo1716797212 (2).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\photo1716797212.jpeg",
+      "PackagePath": "staticwebassets\\images\\photo1716797212.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\premium_photo-1683887064106-531532ecdf20.avif",
+      "PackagePath": "staticwebassets\\images\\premium_photo-1683887064106-531532ecdf20.avif"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\profile.png",
+      "PackagePath": "staticwebassets\\images\\profile.png"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\purse.png",
+      "PackagePath": "staticwebassets\\images\\purse.png"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\saving-img.png",
+      "PackagePath": "staticwebassets\\images\\saving-img.png"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\search-icon.png",
+      "PackagePath": "staticwebassets\\images\\search-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\signin-image.jpg",
+      "PackagePath": "staticwebassets\\images\\signin-image.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\signup-image.jpg",
+      "PackagePath": "staticwebassets\\images\\signup-image.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\slider-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\slider-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\slider-img - Copy.png",
+      "PackagePath": "staticwebassets\\images\\slider-img - Copy.png"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\slider-img.png",
+      "PackagePath": "staticwebassets\\images\\slider-img.png"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\t.jpeg",
+      "PackagePath": "staticwebassets\\images\\t.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\teeee.jpeg",
+      "PackagePath": "staticwebassets\\images\\teeee.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\test.jpeg",
+      "PackagePath": "staticwebassets\\images\\test.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\toggle-icon.png",
+      "PackagePath": "staticwebassets\\images\\toggle-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\toy1.jpeg",
+      "PackagePath": "staticwebassets\\images\\toy1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\toy2.jpeg",
+      "PackagePath": "staticwebassets\\images\\toy2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\toys.jpeg",
+      "PackagePath": "staticwebassets\\images\\toys.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\toys.jpg",
+      "PackagePath": "staticwebassets\\images\\toys.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\tshirt-img.png",
+      "PackagePath": "staticwebassets\\images\\tshirt-img.png"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\images\\user-icon.png",
+      "PackagePath": "staticwebassets\\images\\user-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\jewellery.html",
+      "PackagePath": "staticwebassets\\jewellery.html"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\js\\jquery-3.0.0.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.0.0.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\js\\jquery.mCustomScrollbar.concat.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.mCustomScrollbar.concat.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\js\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\js\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\js\\modernizer.js",
+      "PackagePath": "staticwebassets\\js\\modernizer.js"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\js\\plugin.js",
+      "PackagePath": "staticwebassets\\js\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\js\\slider-setting.js",
+      "PackagePath": "staticwebassets\\js\\slider-setting.js"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Alrowad\\Downloads\\SmallBusiness-masters\\SmallBusiness-masters\\SmallBusiness-master\\SmallBusiness-master\\SmallBusiness\\wwwroot\\sign.html",
+      "PackagePath": "staticwebassets\\sign.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SmallBusiness.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.SmallBusiness.props",
+      "PackagePath": "build\\SmallBusiness.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.SmallBusiness.props",
+      "PackagePath": "buildMultiTargeting\\SmallBusiness.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.SmallBusiness.props",
+      "PackagePath": "buildTransitive\\SmallBusiness.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

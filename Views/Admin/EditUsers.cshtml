@@ -1,0 +1,96 @@
+﻿@model SmallBusiness.Models.User
+
+@{
+    ViewData["Title"] = "Edit User";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1>Edit User</h1>
+
+<h4>User</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="EditUsers" method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="UserID" />
+            <div class="form-group">
+                <label asp-for="FirstName" class="control-label"></label>
+                <input asp-for="FirstName" class="form-control" />
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LastName" class="control-label"></label>
+                <input asp-for="LastName" class="form-control" />
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UserEmail" class="control-label"></label>
+                <input asp-for="UserEmail" class="form-control" />
+                <span asp-validation-for="UserEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UserPassword" class="control-label"></label>
+                <input asp-for="UserPassword" class="form-control" />
+                <span asp-validation-for="UserPassword" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ConfirmPassword" class="control-label"></label>
+                <input asp-for="ConfirmPassword" class="form-control" />
+                <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UserPhone" class="control-label"></label>
+                <input asp-for="UserPhone" class="form-control" />
+                <span asp-validation-for="UserPhone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UserGender" class="control-label"></label>
+                <input asp-for="UserGender" class="form-control" />
+                <span asp-validation-for="UserGender" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="clientFile" class="control-label">User Image</label>
+                <input type="file" asp-for="clientFile" accept="image/*" onchange="validateImage(event)" />
+                <img id="myImg" height="200" src="@($"data:image;base64,{Convert.ToBase64String(Model.UserImage ?? new byte[0])}")" />
+                @if (!string.IsNullOrEmpty(ViewBag.error))
+                {
+                    <span class="text-danger">@ViewBag.error</span>
+                }
+            </div>
+            <div class="form-group">
+                <label asp-for="type" class="control-label"></label>
+                <input asp-for="type" class="form-control" />
+                <span asp-validation-for="type" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="IndexUsers">Back to List</a>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        function validateImage(event) {
+            var file = event.target.files[0];
+            if (file && file.type.startsWith('image/')) {
+                var reader = new FileReader();
+                reader.onload = function () {
+                    var myImg = document.getElementById('myImg');
+                    myImg.src = reader.result;
+                };
+                reader.readAsDataURL(file);
+            } else {
+                alert('Please upload an image file.');
+                event.target.value = ''; // Clear the input
+            }
+        }
+    </script>
+}

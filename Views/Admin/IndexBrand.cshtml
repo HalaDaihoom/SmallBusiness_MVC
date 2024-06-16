@@ -1,0 +1,61 @@
+﻿@model IEnumerable<SmallBusiness.Models.Brand>
+
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="CreateBrand">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.BrandName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BrandImage)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Catagery)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.User)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BrandName)
+                </td>
+                <td>
+                    @if (item.BrandImage != null && item.BrandImage.Length > 0)
+                    {
+                        var base64 = Convert.ToBase64String(item.BrandImage);
+                        var imgSrc = $"data:image/png;base64,{base64}";
+                        <img src="@imgSrc" alt="User Image" style="max-height: 100px; max-width: 100px;" />
+                    }
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Catagery.CatageryName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.User.UserEmail)
+                </td>
+                <td>
+                    <a asp-action="EditBrand" asp-route-id="@item.BrandID">Edit</a> |
+                    <a asp-action="DetailsBrand" asp-route-id="@item.BrandID">Details</a> |
+                    <a asp-action="DeleteBrand" asp-route-id="@item.BrandID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,108 @@
+﻿@model IEnumerable<SmallBusiness.Models.Catagery>
+@{
+    Layout = "~/Views/Shared/_LayoutCustomer.cshtml";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Categories</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="~/css/bootstrap.css" />
+
+    <!-- Custom styles for this template -->
+    <link href="~/css/brandstyle.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="~/css/brandresponsive.css" rel="stylesheet" />
+    <style>
+        /* Category Styles */
+        .border {
+            border-radius: 50%; /* Make it round */
+            overflow: hidden;
+            background-color: white; /* White background */
+            width: 275px; /* Set the width and height to ensure it's a circle */
+            height: 275px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            position: relative; /* Added position relative for numbering */
+        }
+
+            .border::before {
+                content: attr(data-name); /* Add the category name as content */
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%); /* Center the name */
+                font-size: 2.5rem; /* Adjust font size */
+                font-weight: bold;
+                color: white; /* White color for the name */
+                text-align: center; /* Center text */
+                padding: 0 10px; /* Padding for better text visibility */
+            }
+
+        .caption {
+            text-align: center;
+        }
+
+            .caption a {
+                text-decoration: none;
+                color: #333;
+            }
+
+                .caption a:hover {
+                    color: #666;
+                }
+
+            .caption h4 {
+                margin-top: 0;
+                font-size: 2.0rem;
+            }
+    </style>
+</head>
+
+<body>
+
+    <h2 style="display: block; text-align: center; margin-top:50px; font-weight:bold; color: deeppink;">
+        All Categories
+    </h2>
+
+    @if (Model != null)
+    {
+        <div class="row">
+            @foreach (var brand in Model)
+            {
+                <div class="col-sm-3" style="padding:7px;">
+                    <a href="@Url.Action("Brand", "Categories", new { CatageryId = brand.CatageryId })" style="text-decoration:none">
+                        <div class="border" data-name="@brand.CatageryName" style=" color:black; background-color:black;">
+
+                            <!-- Set data-number attribute -->
+                            @{
+                                var base64 = Convert.ToBase64String(brand.CatageryImage);
+                                var imgsrc = string.Format("data:image/jpg;base64,{0}", base64);
+                            }
+                            <div class="content">
+                                <img src="@imgsrc" class="image" alt="@brand.CatageryImage" />
+                                <div class="caption">
+                              </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <p>No categories found.</p>
+    }
+</body>
+</html>
+
+
+
+ 

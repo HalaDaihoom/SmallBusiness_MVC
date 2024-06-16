@@ -1,0 +1,79 @@
+﻿@model IEnumerable<SmallBusiness.Models.Item>
+
+@{
+    Layout = "~/Views/Shared/_LayoutCustomer.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Site Metas -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+    <title>
+        Giftos
+    </title>
+
+    <!-- slider stylesheet -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="~/css/bootstrap.css" />
+
+    <!-- Custom styles for this template -->
+    <link href="~/css/brandstyle.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="~/css/brandresponsive.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+@if (Model != null && Model.Any())
+{
+     @foreach (var item in Model)
+                {
+                    <div class="col-sm-3" style="padding:20px;">
+                        <div class="border" style="padding:15px;  background-color:#eeeeee;">
+@*                             <a href="@Url.Action("Item", "Categories", new {ItemID = item.ItemID })">
+ *@
+                            <a href="@Url.Action("ItemDetails", "Categories", new { ItemID = item.ItemID })">
+
+                                 @{
+                                    var base64 = Convert.ToBase64String(item.ItemImage);
+                                    var imgsrc = string.Format("data:image/jpg;base64,{0}", base64);
+                                }
+                                <div class="content" style="display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 20px; border: 1px solid #e0e0e0; border-radius: 10px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);">
+                                    <img src="@imgsrc" class="image" style="height: 150px; border-radius: 5px; margin-bottom: 15px;" />
+                                    <div class="caption" style="text-align: center;">
+                                        <h5 class="card-title" style="margin: 0;">@item.ItemName</h5>
+                                        <p class="card-text"><strong>Price: </strong>@item.ItemPrice.ToString("C")</p>
+                                        <a asp-action="ItemDetails" asp-controller="Categories" asp-route-itemId="@item.ItemID" class="btn btn-secondary">Show Item</a>
+                                    </div>
+                                </div>
+
+                              
+                            </a>
+                        </div>
+                    </div>
+
+                }
+}
+else
+{
+    <div class="col-12">
+        <p>No items found.</p>
+    </div>
+}
+
+        </div>
+    </div>
+</body>
+</html>

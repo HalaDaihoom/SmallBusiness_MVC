@@ -1,0 +1,116 @@
+﻿@model Tuple<SmallBusiness.Models.Item, IEnumerable<SmallBusiness.Models.Review>>
+
+@{
+    Layout = "~/Views/Shared/_LayoutCustomer.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Site Metas -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <title>Item Reviews</title>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="~/css/bootstrap.css" />
+    <!-- Custom styles for this template -->
+    <link href="~/css/brandstyle.css" rel="stylesheet" />
+    <!-- Responsive style -->
+    <link href="~/css/brandresponsive.css" rel="stylesheet" />
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .container {
+            /*  margin-top: 50px; */
+            max-width: 800px;
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 10px;
+            padding: 30px;
+            /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+            backdrop-filter: blur(10px); /* Apply blur to create the glassy effect */
+            -webkit-backdrop-filter: blur(10px); /* For Safari */
+        }
+
+        h2 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.6);
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgb(24 18 18);
+            padding: 20px;
+        }
+
+        .card-title {
+            font-weight: bold;
+        }
+
+        .card-text {
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        .blockquote-footer {
+            font-size: 0.9em;
+            color: #777;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+
+            .btn-primary:hover {
+                background-color: #0056b3;
+                border-color: #004085;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>@Model.Item1.ItemName - Reviews</h2>
+        <div class="row">
+            @if (Model.Item2 != null && Model.Item2.Any())
+            {
+                @foreach (var review in Model.Item2)
+                {
+                    <div class="col-12 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Rating: @review.ReviewRate</h5>
+                                <p class="card-text">@review.ReviewComment</p>
+                                <footer class="blockquote-footer">By: @review.User.FirstName</footer>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+            else
+            {
+                <div class="col-12">
+                    <p>No reviews found.</p>
+                </div>
+            }
+        </div>
+        <div class="text-center">
+            <a asp-action="AddReview" asp-route-itemId="@Model.Item1.ItemID" class="btn btn-primary">Add Review</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,180 @@
+﻿@model Brand
+
+@{
+    Layout = "~/Views/Shared/_LayoutOwner.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Brand</title>
+    <style>
+        /* Center the form container */
+        body {
+            background-image: url(../images/dd3fd012-e794-46c7-9f24-fcb7223de795.jpg);
+            background-repeat: no-repeat; /* Prevent the image from repeating */
+            background-size: 100%; /* Ensure the image covers the entire background */
+            background-position: center; /* Center the image */
+
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; /* Full viewport height */
+        }
+
+        /* Style the form card */
+        .form-card {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgb(0 0 0 / 96%);
+            max-width: 500px;
+            width: 100%;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+            /* Form heading */
+            .form-card h4 {
+                text-align: center;
+                margin-bottom: 1.5rem;
+                font-size: x-large;
+                font-weight: bold;
+            }
+
+        /* Style form groups */
+        .form-group {
+            margin-bottom: 1rem;
+        }
+
+            /* Style labels */
+            .form-group label {
+                display: block;
+                font-weight: 600;
+                margin-bottom: 0.5rem;
+                color: black;
+            }
+
+        /* Style form controls */
+        .form-control {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid #0404042b;
+            border-radius: 5px;
+        }
+
+        /* Style file input */
+        .form-control-file {
+            border: none;
+        }
+
+        /* Style image preview */
+        #myImg {
+            display: block;
+            margin-top: 1rem;
+            max-height: 200px;
+            width: auto;
+            border-radius: 5px;
+        }
+
+        /* Center the submit button */
+        .text-center {
+            text-align: center;
+        }
+
+        .btn-primary {
+            background-color: #bda7a9;
+            border-color: #020202;
+            padding: 0.75rem 1.5rem;
+            border-radius: 5px;
+            cursor: pointer;
+            color: #000;
+            font-weight: bold;
+            border: none;
+        }
+        /* Additional custom styles */
+        .text-danger {
+            color: #dc3545;
+            margin-top: 0.5rem;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="form-card">
+            <h4>Edit Brand</h4>
+            <hr />
+            <form asp-action="EditBrand" asp-controller="Owner" method="post" enctype="multipart/form-data" onsubmit="return validateForm()">
+                <input type="hidden" asp-for="BrandID" />
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="BrandName"></label>
+                    <input asp-for="BrandName" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="clientFile" class="control-label">Brand Image</label>
+                    <input type="file" id="clientFile" name="clientFile" accept="image/*" class="form-control" onchange="validateImage(event)" />
+                    @if (Model.BrandImage != null)
+                    {
+                        <img id="myImg" src="data:image;base64,@Convert.ToBase64String(Model.BrandImage)" height="200" />
+                    }
+                    else
+                    {
+                        <img id="myImg" src="" height="200" style="display:none;" />
+                    }
+
+                    @if (!string.IsNullOrEmpty(ViewBag.Error))
+                    {
+                        <span class="text-danger">@ViewBag.Error</span>
+                    }
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn-primary">Save Changes</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function validateImage(event) {
+            var file = event.target.files[0];
+            if (file && file.type.startsWith('image/')) {
+                var reader = new FileReader();
+                reader.onload = function () {
+                    var myImg = document.getElementById('myImg');
+                    myImg.src = reader.result;
+                    myImg.style.display = 'block';
+                };
+                reader.readAsDataURL(file);
+            } else {
+                alert('Please upload an image file.');
+                event.target.value = ''; // Clear the input
+                document.getElementById('myImg').style.display = 'none';
+            }
+        }
+
+        function validateForm() {
+            var fileInput = document.getElementById('clientFile');
+            var file = fileInput.files[0];
+            if (file) {
+                if (!file.type.startsWith('image/')) {
+                    alert('Please upload an image file.');
+                    return false; // Prevent form submission
+                }
+            }
+            return true; // Allow form submission
+        }
+    </script>
+</body>
+</html>
+
+

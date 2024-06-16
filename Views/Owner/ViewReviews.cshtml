@@ -1,0 +1,105 @@
+﻿@model List<Review>
+
+@{
+    Layout = "~/Views/Shared/_LayoutOwner.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Reviews</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-image: url(../images/dd3fd012-e794-46c7-9f24-fcb7223de795.jpg);
+            background-repeat: no-repeat; /* Prevent the image from repeating */
+            background-size: 100%; /* Ensure the image covers the entire background */
+            background-position: center; /* Center the image */
+
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        h1 {
+            color: black;
+            margin-bottom: 20px;
+        }
+
+        .list-group-item {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgb(0 0 0 / 96%);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            width: 100%;
+            height: 100%;
+            max-width: 500px;
+            max-height: 500px;
+            margin: auto;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .btn-primary {
+            background-color: #6674ff;
+        }
+
+            .btn-primary:hover {
+                background-color: #1b1d35;
+            }
+
+        .btn {
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            color: white;
+            background-color: #6c757d;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Reviews for Item @ViewBag.ItemId</h1>
+
+        @if (Model.Count == 0)
+        {
+            <p>No reviews found.</p>
+        }
+        else
+        {
+            <ul class="list-group w-75">
+                @foreach (var review in Model)
+                {
+                    <li class="list-group-item">
+                        <strong>@review.User.FirstName</strong>: @review.ReviewComment
+                        <br />
+                        Rating: @review.ReviewRate
+                    </li>
+                }
+            </ul>
+        }
+
+        <a href="@Url.Action("BrandItem", "Owner", new { brandId = ViewBag.BrandId })" class="btn btn-primary">Back to Items</a>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+</body>
+</html>
+

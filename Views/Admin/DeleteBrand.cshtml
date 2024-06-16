@@ -1,0 +1,55 @@
+﻿@model SmallBusiness.Models.Brand
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Brand</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.BrandName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.BrandName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.BrandImage)
+        </dt>
+        <dd class="col-sm-10">
+            @if (Model.BrandImage != null && Model.BrandImage.Length > 0)
+            {
+                var base64 = Convert.ToBase64String(Model.BrandImage);
+                var imgSrc = $"data:image/png;base64,{base64}";
+                <img src="@imgSrc" alt="User Image" style="max-height: 200px; max-width: 200px;" />
+            }
+            else
+            {
+                <span>No image available</span>
+            }
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Catagery)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Catagery.CatageryName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.User)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.User.UserEmail)
+        </dd>
+    </dl>
+
+    <form asp-action="DeleteBrand">
+        <input type="hidden" asp-for="BrandID" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="IndexBrand">Back to List</a>
+    </form>
+</div>

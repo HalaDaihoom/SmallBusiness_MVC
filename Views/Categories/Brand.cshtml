@@ -1,0 +1,118 @@
+﻿@model IEnumerable<SmallBusiness.Models.Brand>
+@{
+    Layout = null;
+    Layout = "~/Views/Shared/_LayoutCustomer.cshtml";
+
+    ViewData["Title"] = "Brands";
+}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Site Metas -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+    <title>
+        Giftos
+    </title>
+
+    <!-- slider stylesheet -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="~/css/bootstrap.css" />
+
+    <!-- Custom styles for this template -->
+    <link href="~/css/brandstyle.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="~/css/brandresponsive.css" rel="stylesheet" />
+</head>
+
+<body style="background-color: white;">
+    <div class="hero_area">
+
+        <section class="slider_section">
+            <div class="slider_container">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-7">
+                                        <div class="detail-box">
+                                            <h1>
+                                                Welcome To Our <br>
+                                                Gift Shop
+                                            </h1>
+
+                                            <a class="nav-link text-dark" asp-area="" asp-controller="Customer" asp-action="CustomerService">
+
+                                                Contact Us
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5 ">
+                                        <div class="img-box">
+                                            <img src="~/images/slider-img - Copy.png" alt="" style="width:150px;"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                       
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+            </div>
+
+    <section class="shop_section layout_padding">
+        <div class="container">
+            <div class="heading_container heading_center">
+                <h2>
+                    All Brands
+                </h2>
+            </div>
+
+
+            <div class="row">
+                @foreach (var brand in Model)
+                {
+                    <div class="col-sm-3" style="padding:20px;">
+                        <div class="border" style="padding:15px;  background-color:#eeeeee;">
+                            <a href="@Url.Action("Item", "Categories", new { BrandID = brand.BrandID })">
+                                @{
+                                    var base64 = Convert.ToBase64String(brand.BrandImage);
+                                    var imgsrc = string.Format("data:image/jpg;base64,{0}", base64);
+                                }
+
+                                <div class="content">
+                                    <img src="@imgsrc" class="image" style="text-align:center;  height:150px; border-radius: 5px;" />
+                                    <div class="caption">
+                                        <h4>@brand.BrandName</h4>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                }
+            </div>
+                </div>
+
+            </div>
+            </section>
+
+    
+            </body>
+            </html>

@@ -1,0 +1,125 @@
+﻿@model Item
+
+@{
+    Layout = "~/Views/Shared/_LayoutCustomer.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Item Details</title>
+    <style>
+        body {
+            background-image: url(../images/5422e1cc-2c50-496c-b4e0-f6fdcdfb7669.jpeg);
+            background-repeat: no-repeat; /* Prevent the image from repeating */
+            background-size: 100%; /* Ensure the image covers the entire background */
+            background-position: center; /* Center the image */
+
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px); /* Apply blur to create the glassy effect */
+            -webkit-backdrop-filter: blur(10px); /* For Safari */
+            text-align: center;
+            width: 500px;
+            max-width: 90%;
+            border: 1px solid rgba(255, 255, 255, 0.18); /* Light border for better visibility */
+        }
+
+            .card img {
+                border-radius: 10px;
+                margin-bottom: 20px;
+                height: 200px;
+                width: 150px;
+                margin-left: 150px;
+                margin-right: 150px;
+            }
+
+            .card h1 {
+                font-size: 1.5em;
+                margin-bottom: 10px;
+            }
+
+            .card p {
+                margin: 10px 0;
+                color: #555;
+            }
+
+            .card .buttons {
+                display: flex;
+                justify-content: space-around;
+                margin-top: 20px;
+            }
+
+            .card .btn {
+                display: inline-block;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                text-decoration: none;
+                color: #fff;
+                background-color: #7d83c3;
+                cursor: pointer;
+            }
+
+                .card .btn:hover {
+                    background-color: #1b1d35;
+                }
+
+            .card .btn-secondary {
+                background-color: #6c757d;
+            }
+
+                .card .btn-secondary:hover {
+                    background-color: #5a6268;
+                }
+
+            .card .btn-danger {
+                background-color: #dc3545;
+            }
+
+                .card .btn-danger:hover {
+                    background-color: #c82333;
+                }
+
+        .out-of-stock-message {
+            color: #dc3545;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        @{
+            var base64 = Convert.ToBase64String(Model.ItemImage);
+            var imgsrc = string.Format("data:image/jpg;base64,{0}", base64);
+        }
+        <img src="@imgsrc" alt="Item Image" />
+        <h1>@Model.ItemName</h1>
+        <p>Price: @Model.ItemPrice</p>
+        <p>Description: @Model.ItemDescription</p>
+        <p>Stock: @Model.StockAmount</p> <!-- Display stock information -->
+        @if (TempData["OutOfStockMessage"] != null)
+        {
+            <p class="out-of-stock-message">@TempData["OutOfStockMessage"]</p>
+        }
+
+        <div class="buttons">
+            <a href="~/Cart/AddToCart?itemId=@Model.ItemID" class="btn btn-primary">Add To Cart</a>
+            <a href="~/Categories/ItemReviews?itemId=@Model.ItemID" class="btn btn-primary">Reviews</a>
+
+        </div>
+    </div>
+</body>
+</html>

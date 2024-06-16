@@ -1,0 +1,50 @@
+﻿@model IEnumerable<SmallBusiness.Models.Catagery>
+
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+
+    ViewData["Title"] = "Index";
+   
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="CreateCatagery">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CatageryName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CatageryImage)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CatageryName)
+                </td>
+                <td>
+                    @if (item.CatageryImage != null && item.CatageryImage.Length > 0)
+                    {
+                        var base64 = Convert.ToBase64String(item.CatageryImage);
+                        var imgSrc = $"data:image/png;base64,{base64}";
+                        <img src="@imgSrc" alt="User Image" style="max-height: 100px; max-width: 100px;" />
+                    }
+                </td>
+                <td>
+                    <a asp-action="EditCatagery" asp-route-id="@item.CatageryId">Edit</a> |
+                    <a asp-action="DetailsCatagery" asp-route-id="@item.CatageryId">Details</a> |
+                    <a asp-action="DeleteCatagery" asp-route-id="@item.CatageryId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

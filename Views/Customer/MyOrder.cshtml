@@ -1,0 +1,126 @@
+﻿@model List<SmallBusiness.Models.Order>
+
+@{
+    ViewBag.Title = "My Orders";
+    Layout = "~/Views/Shared/_LayoutCustomer.cshtml";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title style="font-weight:bold;">My Orders</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        h2 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .table-container {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 0;
+        }
+
+            table th, table td {
+                padding: 8px;
+                text-align: left;
+                border-bottom: 1px solid #ddd;
+            }
+
+            table th {
+                background-color: #f4f4f4;
+            }
+
+            table td {
+                vertical-align: top;
+            }
+
+        .no-orders {
+            text-align: center;
+            color: #999;
+            margin-top: 50px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+            ul li {
+                display: inline-block;
+                margin-right: 10px;
+                background-color: #f9f9f9;
+                padding: 5px 10px;
+                border-radius: 5px;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>My Orders</h2>
+
+        @if (Model == null || !Model.Any())
+        {
+            <p class="no-orders">No orders found.</p>
+        }
+        else
+        {
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Order ID</th>
+                            <th>Order Price</th>
+                            <th>Order Quantity</th>
+                            <th>Order Date</th>
+                            <th>Items</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var order in Model)
+                        {
+                            <tr>
+                                <td>@order.OrderID</td>
+                                <td>@order.OrderPrice</td>
+                                <td>@order.OrderQuantity</td>
+                                <td>@order.OrderData.ToShortDateString()</td>
+                                <td>
+                                    <ul>
+                                        @foreach (var orderItem in order.OrderItems)
+                                        {
+                                            <li>@orderItem.Item.ItemName (Quantity: @orderItem.Quantity, Price: @orderItem.Price)</li>
+                                        }
+                                    </ul>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        }
+    </div>
+</body>
+</html>

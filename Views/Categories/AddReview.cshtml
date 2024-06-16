@@ -1,0 +1,128 @@
+﻿@model SmallBusiness.Models.Review
+
+@{
+    Layout = "~/Views/Shared/_LayoutCustomer.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Add Review</title>
+    <link rel="stylesheet" type="text/css" href="~/css/bootstrap.css" />
+    <link href="~/css/brandstyle.css" rel="stylesheet" />
+    <link href="~/css/brandresponsive.css" rel="stylesheet" />
+    <style>
+        body {
+            background-image: url(../images/1a287696-25e3-4e76-8a03-720233625db7.jpg);
+            background-repeat: no-repeat; /* Prevent the image from repeating */
+            background-size: 100%; /* Ensure the image covers the entire background */
+            background-position: center; /* Center the image */
+
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+            padding: 0 20px;
+        }
+
+        h2 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .form-container {
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px); /* Apply blur to create the glassy effect */
+            -webkit-backdrop-filter: blur(10px); /* For Safari */
+            padding: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+            .form-group label {
+                font-weight: bold;
+            }
+
+            .form-group input, .form-group textarea, .form-group select {
+                width: 100%;
+                padding: 10px;
+                border-radius: 5px;
+                border: 1px solid #ccc;
+                box-sizing: border-box;
+            }
+
+                .form-group input[type="radio"] {
+                    width: auto;
+                    margin-right: 5px;
+                }
+
+        .alert {
+            margin-top: 10px;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('input[name="TriedItem"]').change(function () {
+                if ($(this).val() === 'no') {
+                    $('#notTriedMessage').show();
+                } else {
+                    $('#notTriedMessage').hide();
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h2>Add Review</h2>
+        <div class="form-container">
+            <form asp-action="AddReview" method="post">
+                <div class="form-group">
+                    <label asp-for="ReviewComment"></label>
+                    <textarea asp-for="ReviewComment" class="form-control"></textarea>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ReviewRate"></label>
+                    <input asp-for="ReviewRate" class="form-control" />
+                    <span asp-validation-for="ReviewRate" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label>Have you tried the item?</label>
+                    <div>
+                        <input type="radio" name="TriedItem" value="yes" /> Yes
+                        <input type="radio" name="TriedItem" value="no" /> No
+                    </div>
+                </div>
+                <div id="notTriedMessage" class="alert alert-warning" style="display: none;">
+                    You haven't tried the item yet.
+                </div>
+                <input type="hidden" asp-for="ItemId" />
+                <input type="hidden" asp-for="UserId" />
+                <button type="submit" class="btn btn-primary">Submit Review</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,70 @@
+﻿@model SmallBusiness.Models.Brand
+
+@{
+    ViewData["Title"] = "Edit Brand";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1>Edit Brand</h1>
+
+<h4>Brand</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="EditBrand" method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="BrandID" />
+            <div class="form-group">
+                <label asp-for="BrandName" class="control-label"></label>
+                <input asp-for="BrandName" class="form-control" />
+                <span asp-validation-for="BrandName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="clientFile" class="control-label">Brand Image</label>
+                <input type="file" asp-for="clientFile" accept="image/*" onchange="validateImage(event)" />
+                <img id="myImg" height="200" src="@($"data:image;base64,{Convert.ToBase64String(Model.BrandImage ?? new byte[0])}")" />
+                @if (!string.IsNullOrEmpty(ViewBag.error))
+                {
+                    <span class="text-danger">@ViewBag.error</span>
+                }
+            </div>
+            <div class="form-group">
+                <label asp-for="CatageryId" class="control-label"></label>
+                <select asp-for="CatageryId" class="form-control" asp-items="ViewBag.CatageryId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="UserID" class="control-label"></label>
+                <select asp-for="UserID" class="form-control" asp-items="ViewBag.UserID"></select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="IndexBrand">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        function validateImage(event) {
+            var file = event.target.files[0];
+            if (file && file.type.startsWith('image/')) {
+                var reader = new FileReader();
+                reader.onload = function () {
+                    var myImg = document.getElementById('myImg');
+                    myImg.src = reader.result;
+                };
+                reader.readAsDataURL(file);
+            } else {
+                alert('Please upload an image file.');
+                event.target.value = ''; // Clear the input
+            }
+        }
+    </script>
+}

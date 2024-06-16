@@ -1,0 +1,82 @@
+﻿@model IEnumerable<SmallBusiness.Models.User>
+
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+
+    ViewData["Title"] = "Index";
+   
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="CreateUsers">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserEmail)
+            </th>
+            
+            <th>
+                @Html.DisplayNameFor(model => model.UserPhone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserGender)
+            </th>
+            <th>
+               @Html.DisplayNameFor(model => model.UserImage)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.type)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FirstName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LastName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UserEmail)
+                </td>
+                
+                <td>
+                    @Html.DisplayFor(modelItem => item.UserPhone)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UserGender)
+                </td>
+                <td>
+                    @if (item.UserImage != null && item.UserImage.Length > 0)
+                    {
+                        var base64 = Convert.ToBase64String(item.UserImage);
+                        var imgSrc = $"data:image/png;base64,{base64}";
+                        <img src="@imgSrc" alt="User Image" style="max-height: 100px; max-width: 100px;" />
+                    }
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.type)
+                </td>
+                <td>
+                    <a asp-action="EditUsers" asp-route-id="@item.UserID">Edit</a> |
+                    <a asp-action="DetailsUsers" asp-route-id="@item.UserID">Details</a> |
+                    <a asp-action="DeleteUsers" asp-route-id="@item.UserID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
